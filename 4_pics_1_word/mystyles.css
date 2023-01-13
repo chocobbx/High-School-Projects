@@ -1,0 +1,378 @@
+* { cursor: url(cursor.ani), default;}
+body {
+  background-image: url('images/wallpaper.jpg');
+  width: 1025px;
+}
+div.top {
+  height: 50px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+img.coin {
+  top: 10px;
+  right: 100px;
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  z-index: 1;
+}
+div.mon {
+  border: 1px solid white;
+  border-radius: 20px;
+  height: 33px;
+  width: 85px;
+  top: 7px;
+  right: 35px;
+  position: fixed;
+  background-color: #0a1d68;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+  font-size: 23px;
+  padding-top: 5px;
+  padding-right: 15px;
+}
+img.level {
+  width: 40px;
+  left: 47.5%;
+  position: fixed;
+}
+div.lev {
+  color: black;
+  position: fixed;
+  width: 15px;
+  height: 10px;
+  top: 10px;
+  font-size: 20px;
+  left: 48.2%;
+  z-index: 1;
+  text-align: right;
+}
+div.pic {
+  width: 420px;
+  left: 33.5%;
+  top: 70px;
+  position: absolute;
+  height: 360px;
+}
+div.pic1 {
+  position: absolute;
+  border: 5px solid dimgrey;
+  width: 195px;
+  height: 165px;
+  border-radius: 20px;
+  z-index: 0;
+}
+div.pic2 {
+  position: absolute;
+  border: 5px solid dimgrey;
+  width: 195px;
+  height: 165px;
+  right: 0px;
+  border-radius: 20px;
+  z-index: 0;
+}
+div.pic3 {
+  position: absolute;
+  border: 5px solid dimgrey;
+  width: 195px;
+  bottom: 0px;
+  height: 165px;
+  border-radius: 20px;
+  z-index: 0;
+}
+div.pic4 {
+  position: absolute;
+  border: 5px solid dimgrey;
+  width: 195px;
+  height: 165px;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 20px;
+  z-index: 0;
+}
+input {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  font-size: 25px;
+  color: dimgrey;
+  top: 480px;
+  left: 43%;
+  background-color: #0a1d68;
+  border-radius: 10px;
+  border: dashed;
+  border-color: white;
+  font-family: comic sans ms;
+}
+div.mus {
+  display: none;
+}
+button.fa {
+  position: absolute;
+  top: 480px;
+  left: 770px;
+  height: 35px;
+  width: 80px;
+  font-size: 20px;
+  border: none;
+  font-family: comic sans ms;
+}
+button:hover {
+  color: white;
+  background-color: #0a1d68;
+  border: none;
+}
+div.beg {
+  border: 1px solid white;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  left: 27%;
+  top: 10%;
+  border-radius: 30px;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+}
+span.a1 {
+  color: red;
+  font-size: 180px;
+  left: 80px;
+  top: 20px;
+  position: absolute;
+  transform: rotate(-20deg);
+}
+span.a1:hover {
+  color: skyblue;
+}
+span.a2 {
+  color: red;
+  font-size: 180px;
+  left: 220px;
+  top: 5px;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+span.a2:hover {
+  color: orange;
+}
+span.a3 {
+  color: red;
+  font-size: 150px;
+  left: 320px;
+  top: 5px;
+  position: absolute;
+  transform: rotate(8deg);
+}
+span.a3:hover {
+  color: yellow;
+}
+span.a4 {
+  color: red;
+  font-size: 150px;
+  left: 370px;
+  top: -10px;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+span.a4:hover {
+  color: green;
+}
+span.a5 {
+  color: red;
+  font-size: 150px;
+  left: 450px;
+  top: 5px;
+  position: absolute;
+  transform: rotate(-20deg);
+}
+span.a5:hover {
+  color: blue;
+}
+span.b1 {
+  color: red;
+  font-size: 180px;
+  left: 80px;
+  top: 200px;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+span.b1:hover {
+  color: purple;
+}
+span.b2 {
+  color: red;
+  font-size: 150px;
+  left: 180px;
+  top: 200px;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+span.b2:hover {
+  color: violet;
+}
+span.b3 {
+  color: red;
+  font-size: 150px;
+  left: 320px;
+  top: 205px;
+  position: absolute;
+  transform: rotate(15deg);
+}
+span.b3:hover {
+  color: green;
+}
+span.b4 {
+  color: red;
+  font-size: 150px;
+  left: 400px;
+  top: 180px;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+span.b4:hover {
+  color: orange;
+}
+span.b5 {
+  color: red;
+  font-size: 150px;
+  left: 460px;
+  top: 200px;
+  position: absolute;
+  transform: rotate(20deg);
+}
+span.b5:hover {
+  color: yellow;
+}
+button.te {
+  position: absolute;
+  top: 420px;
+  left: 400px;
+  height: 35px;
+  width: 80px;
+  font-size: 20px;
+  border: none;
+  font-family: comic sans ms;
+}
+div.name {
+  position: absolute;
+  width: 300px;
+  height: 28px;
+  color: white;
+  padding: 11px;
+  font-size: 20px;
+  top: 0px;
+  left: 0px;
+}
+span.qwer {
+  color: yellow;
+  text-decoration: underline;
+}
+input.gaga {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  font-size: 25px;
+  color: dimgrey;
+  top: 480px;
+  left: 43%;
+  background-color: #0a1d68;
+  border-radius: 10px;
+  border: dashed;
+  border-color: white;
+  font-family: comic sans ms;
+}
+#popup {
+  border: 3px solid white;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: #175c0a;
+  color: white;
+  font-family: cute font, cursive;
+  font-size: 40px;
+  display: none;
+  border-radius: 20px;
+  left: 32%;
+  top: 60px;
+  text-align: center;
+}
+img.gj {
+  position: absolute;
+  left: 24%;
+  top: 30px;
+  width: 250px;
+}
+img.cgj {
+  position: absolute;
+  width: 50px;
+  bottom: 50px;
+  left: 155px;
+  top: 325px;
+}
+span.hehe {
+  position: absolute;
+  color: white;
+  font-family: cute font, cursive;
+  font-size: 40px;
+  left: 210px;
+  top: 320px;
+}
+button.nlevel {
+  position: absolute;
+  color: black;
+  background-color: #fada00;
+  border: 1px solid black;
+  font-family: cute font, cursive;
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 25px;
+  bottom: 20px;
+  right: 20px;
+}
+button.nlevel:hover {
+  background-color: #0412b2;
+  color: white;
+}
+div.debug {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 1px solid white;
+  padding: 5px;
+  color: white;
+}
+#last {
+  border: 3px solid white;
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: #175c0a;
+  color: white;
+  font-family: cute font, cursive;
+  font-size: 40px;
+  display: none;
+  border-radius: 20px;
+  left: 32%;
+  top: 60px;
+  text-align: center;
+}
+#hint {
+  position: absolute;
+  top: 540px;
+  left: 770px;
+  height: 70px;
+  width: 80px;
+  font-size: 20px;
+  border: none;
+  font-family: comic sans ms;
+}
+#hint:hover {
+  color: white;
+  background-color: #0a1d68;
+  border: none;
+}

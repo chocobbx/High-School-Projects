@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>4 Pics 1 Word</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="mystyles.css">
+</head>
+<body>
+<div class="mus">
+ <audio id="audio1" autoplay loop>
+ <source src="sfx/bgm.mp3" type="audio/mpeg">
+ Your browser does not support the audio element.
+ </audio>
+</div>
+<div class="beg" id="beg">
+<span class="a1">4</span>
+<span class="a2">P</span>
+<span class="a3">i</span>
+<span class="a4">c</span>
+<span class="a5">s</span>
+<span class="b1">1</span>
+<span class="b2">W</span>
+<span class="b3">o</span>
+<span class="b4">r</span>
+<span class="b5">d</span>
+<input type="text" style="top:420px;left:36.3%;" value="Nickname" id="testy" onclick="doAll2()">
+<button type="button" class="te" id="play" onclick="doRemove()">Play!</button>
+</div>
+<div class="top">
+<div class="name" id="name"></div>
+<div class="lev" id="lev">1</div>
+<img class="level" src="images/level.png">
+<a onmousedown="money.play()"><div class="mon" id="mon"><img class="coin" src="coin.gif">0</div>
+</div></a>
+<div class="pic">
+<div class="pic1" id="pic1"><img src="images/1/pic1.jpg" style="width:100%;height:100%;border-radius:20px;"></div>
+<div class="pic2" id="pic2"><img src="images/1/pic2.jpg" style="width:100%;height:100%;border-radius:20px;"></div>
+<div class="pic3" id="pic3"><img src="images/1/pic3.jpg" style="width:100%;height:100%;border-radius:20px;"></div>
+<div class="pic4" id="pic4"><img src="images/1/pic4.jpg" style="width:100%;height:100%;border-radius:20px;"></div>
+</div>
+<input class="gaga" id="answer" onclick="doAll1()" value="Answer">
+<button id="enter" class="fa" onclick="checkAll()">Enter</button>
+<div id="popup"><img class="gj" src="images/gj.png"><img class="cgj" src="coin.gif"><span class="hehe">+5</span><button type="button" class="nlevel" onclick="popoff()">NEXT LEVEL</button></div>
+<div id="last"><img src="images/cong.png" style="width:90%;"><img src="images/last.png" style="width:100%;position:absolute;bottom:25px;left:0%;"></div>
+<script src="main.js"></script>
+<script src="enter.js"></script>
+</body>
+</html>
